@@ -1,3 +1,23 @@
-body {
-	color:red;
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+@media (min-width: 500px;){
+	header{
+
+	}
+}
+
+
+@media (min-width: 1280px;){
+	header{
+		margin-top: 20px;
+		margin-bottom: 100px;
+		font-family: "almarai";
+		/* font-size:  */
+		color: red;
+	}
+
+	h1{
+		font-family: "instrument serif";
+	}
 }
