@@ -1,15 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-	--primary-font: 'Helvetica Neue', sans-serif;
+	--primary-font: "Helvetica Neue", sans-serif;
+	--font-size: 16px;
+	--spacing: 20px;
 }
 
 @media (max-width: 480px){
-	header p{
+	
+	.body-content{ margin: 18px;}
+
+	#author-info{
 		font-family: var(--primary-font);
 		font-size: 12px;
+		margin-top: 20px;
+		border-bottom: 1px solid black;
+		padding-bottom: 20px;
 	}
-}
+
+	.helvetica-bold{
+		font-weight: bold;
+	}
+
+	h1{
+		font-family: "almarai";
+		font-weight: bold;
+		font-size: 32.5px;
+		line-height: 38px;
+		margin-top: 20px;
+	}
+
+	.h1-font{
+		font-family: "libre-baskerville";
+		font-style: italic;
+	}
+
+	h2 {
+		font-family: "libre-baskerville";
+		font-weight: bold;
+		font-size: 16px;
+		margin-top: 30px;
+		}
+	}
 
 /* @media (min-width: 1024px) {
 	header {
