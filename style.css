@@ -35,9 +35,9 @@
 	h1{
 		font-family: "almarai";
 		font-weight: bold;
-		font-size: 32.5px;
+		font-size: 38px;
 		color: #02186F;
-		line-height: 38px;
+		line-height: 42px;
 		margin-top: 30px;
 		padding: var(--padding);
 	}
@@ -50,11 +50,12 @@
 	h2 {
 		font-family: "libre-baskerville";
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 18px;
+		line-height: 22px;
 		color: #FF0B0B;
-		margin: 20px 0;
+		margin: 30px 0;
 		border-bottom: 1px solid black;
-		padding-bottom: 20px;
+		padding-bottom: 30px;
 		position: relative;
 		padding-left: 45px;
 		padding-right: 18px;
@@ -126,7 +127,7 @@
 		font-size: 28px;
 		color:#FF0B0B;
 	}
-	
+
 	}
 
 
