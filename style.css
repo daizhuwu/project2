@@ -9,6 +9,9 @@
 
 @media (max-width: 480px){
 
+	body{
+		min-width: 375px;
+	}
 	header p{
 		font-family: var(--primary-font);
 		font-size: 12px;
@@ -35,9 +38,9 @@
 	h1{
 		font-family: "almarai";
 		font-weight: bold;
-		font-size: 38px;
+		font-size: 32.97px;
 		color: #02186F;
-		line-height: 42px;
+		line-height: 36px;
 		margin-top: 30px;
 		padding: var(--padding);
 	}
@@ -46,6 +49,10 @@
 		font-family: "libre-baskerville";
 		font-style: italic;
 		font-weight: normal;
+	}
+
+	h1 div {
+		display: block;
 	}
 
 	h2 {
