@@ -78,7 +78,8 @@
 
 	p {
 		font-family: var(--primary-font);
-		font-size: var(--font-size);
+		font-size: 22px;
+		/* font-size: var(--font-size); */
 		padding: var(--padding);
 		line-height: 24px;
 		margin-top: 20px;
@@ -140,16 +141,16 @@
 
 
 @media (min-width: 480px) {
-	body{
+	/* body{
 		min-width: 375px;
-	}
+	} */
 	header p{
 		font-family: var(--primary-font);
-		font-size: 12px;
-		margin-top: 10px;
+		font-size: 28px;
+		margin-top: 20px;
 		border-bottom: 1px solid black;
 		padding: 0;
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 	}
 
 	.helvetica-bold{
@@ -157,22 +158,23 @@
 	}
 
 	#author-info-star1{
-		font-size: 18px;
+		font-size: 28px;
 		color: #02186F;
 	}
 
 	#author-info-star2{
-		font-size: 18px;
+		font-size: 28px;
 		color: #FF0B0B;
 	}
 
 	h1{
 		font-family: "almarai";
 		font-weight: bold;
-		font-size: 32.97px;
+		font-size: 84px;
 		color: #02186F;
-		line-height: 36px;
-		margin-top: 30px;
+		line-height: 80px;
+		margin-top: 60px;
+		margin-left: 4%;
 		padding: var(--padding);
 	}
 
@@ -183,16 +185,17 @@
 	}
 
 	h1 div {
-		display: block;
+		display: inline-block;
 	}
 
 	h2 {
 		font-family: "libre-baskerville";
 		font-weight: bold;
-		font-size: 18px;
-		line-height: 22px;
+		font-size: 28px;
+		line-height: 32px;
 		color: #FF0B0B;
-		margin: 30px 0;
+		/* margin: 30px 0; */
+		margin: 50px 0 40px 4%;
 		border-bottom: 1px solid black;
 		padding-bottom: 30px;
 		position: relative;
@@ -201,7 +204,7 @@
 		}
 	
 	#star{
-		font-size: 20px;
+		font-size: 28px;
 		position: absolute;
 		left: 18px;
 		top: 0;
