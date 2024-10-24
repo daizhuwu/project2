@@ -1,33 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Instrument+Serif:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-	--primary-font: "Helvetica Neue", sans-serif;
+	--primary-font: 'Helvetica Neue', sans-serif;
 	--font-size: 16px;
 	--spacing: 20px;
 }
 
 @media (max-width: 480px){
 	
-	.body-content{ margin: 18px;}
+	.body-content{margin: 18px;}
 
 	#author-info{
 		font-family: var(--primary-font);
 		font-size: 12px;
-		margin-top: 20px;
+		margin-top: 10px;
 		border-bottom: 1px solid black;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
 
 	.helvetica-bold{
 		font-weight: bold;
 	}
 
+	#author-info-star1{
+		font-size: 14px;
+		color: #02186F;
+	}
+
+	#author-info-star2{
+		font-size: 14px;
+		color: #FF0B0B;
+	}
+
 	h1{
 		font-family: "almarai";
 		font-weight: bold;
 		font-size: 32.5px;
+		color: #02186F;
 		line-height: 38px;
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 
 	.h1-font{
@@ -39,8 +50,23 @@
 		font-family: "libre-baskerville";
 		font-weight: bold;
 		font-size: 16px;
-		margin-top: 30px;
+		color: #FF0B0B;
+		margin-top: 20px;
+		margin-bottom: 40px;
 		}
+	
+	#star1{font-size: 18px;}
+
+	body {
+		font-family: var(--primary-font);
+		font-size: var(--font-size);
+		line-height: 24px;
+	}
+
+	p{
+		margin-top: 20px;
+	}
+
 	}
 
 /* @media (min-width: 1024px) {
