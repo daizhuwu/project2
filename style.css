@@ -78,8 +78,7 @@
 
 	p {
 		font-family: var(--primary-font);
-		font-size: 22px;
-		/* font-size: var(--font-size); */
+		font-size: var(--font-size);
 		padding: var(--padding);
 		line-height: 24px;
 		margin-top: 20px;
@@ -212,19 +211,21 @@
 
 	p {
 		font-family: var(--primary-font);
-		font-size: var(--font-size);
+		font-size: 22px;
 		padding: var(--padding);
-		line-height: 24px;
-		margin-top: 20px;
+		line-height: 36px;
+		margin: 20px 4% 0 4%;
 	}
 
 	blockquote{
 		font-family: "libre-baskerville";
 		font-style: italic;
-		font-size: 18.5px;
+		font-size: 28px;
 		color:#FF0B0B;
-		line-height: 24px;
-		margin-top: 40px;
+		/* line-height: 24px; */
+		line-height: auto;
+		/* margin-top: 40px; */
+		margin: 40px 4% 0px 4%;
 		border-top: 1px solid black;
 		padding-top: 30px;
 		padding-left: 45px;
@@ -234,18 +235,18 @@
 	}
 
 	#diamond {
-		font-size: 30px;
+		font-size: 35px;
 		font-style: normal;
-		padding-top: 30px;
+		padding-top: 20px;
 		position: absolute;
 		left: 18px;
 		top: 0;
 	}
 
 	#circle {
-		font-size: 35px;
+		font-size: 40px;
 		font-style: normal;
-		padding-top: 30px;
+		padding-top: 20px;
 		position: absolute;
 		left: 18px;
 		top: 0;
@@ -253,20 +254,21 @@
 
 	footer p{
 		font-family: var(--primary-font);
-		font-size: 12px;
+		font-size: 20px;
 		margin-top: 80px;
 		border-top: 1px solid black;
 		padding: 0;
 		padding-top: 10px;
+		
 	}
 
 	#footer-circle1{
-		font-size: 28px;
+		font-size: 40px;
 		color:#02186F;
 	}
 
 	#footer-circle2 {
-		font-size: 28px;
+		font-size: 40px;
 		color:#FF0B0B;
 	}
 }
