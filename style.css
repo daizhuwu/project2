@@ -4,17 +4,17 @@
 	--primary-font: 'Helvetica Neue', sans-serif;
 	--font-size: 16px;
 	--spacing: 20px;
+	--padding: 0 18px;
 }
 
 @media (max-width: 480px){
-	
-	.body-content{margin: 18px;}
 
-	#author-info{
+	header p{
 		font-family: var(--primary-font);
 		font-size: 12px;
 		margin-top: 10px;
 		border-bottom: 1px solid black;
+		padding: 0;
 		padding-bottom: 10px;
 	}
 
@@ -23,12 +23,12 @@
 	}
 
 	#author-info-star1{
-		font-size: 14px;
+		font-size: 18px;
 		color: #02186F;
 	}
 
 	#author-info-star2{
-		font-size: 14px;
+		font-size: 18px;
 		color: #FF0B0B;
 	}
 
@@ -39,6 +39,7 @@
 		color: #02186F;
 		line-height: 38px;
 		margin-top: 30px;
+		padding: var(--padding);
 	}
 
 	.h1-font{
@@ -51,23 +52,91 @@
 		font-weight: bold;
 		font-size: 16px;
 		color: #FF0B0B;
-		margin-top: 20px;
-		margin-bottom: 40px;
+		margin: 20px 0;
+		border-bottom: 1px solid black;
+		padding-bottom: 20px;
+		position: relative;
+		padding-left: 45px;
+		padding-right: 18px;
 		}
 	
-	#star1{font-size: 18px;}
-
-	body {
-		font-family: var(--primary-font);
-		font-size: var(--font-size);
-		line-height: 24px;
+	#star{
+		font-size: 20px;
+		position: absolute;
+		left: 18px;
+		top: 0;
 	}
 
-	p{
+	p {
+		font-family: var(--primary-font);
+		font-size: var(--font-size);
+		padding: var(--padding);
+		line-height: 24px;
 		margin-top: 20px;
 	}
 
+	blockquote{
+		font-family: "libre-baskerville";
+		font-style: italic;
+		font-size: 18.5px;
+		color:#FF0B0B;
+		line-height: 24px;
+		margin-top: 40px;
+		border-top: 1px solid black;
+		padding-top: 30px;
+		padding-left: 45px;
+		padding-right: 18px;
+		padding-bottom: 5px;
+		position: relative;
 	}
+
+	#diamond {
+		font-size: 30px;
+		font-style: normal;
+		padding-top: 30px;
+		position: absolute;
+		left: 18px;
+		top: 0;
+	}
+
+	#circle {
+		font-size: 35px;
+		font-style: normal;
+		padding-top: 30px;
+		position: absolute;
+		left: 18px;
+		top: 0;
+	}
+
+	footer p{
+		font-family: var(--primary-font);
+		font-size: 12px;
+		margin-top: 80px;
+		border-top: 1px solid black;
+		padding: 0;
+		padding-top: 10px;
+	}
+
+	#footer-circle1{
+		font-size: 28px;
+		color:#02186F;
+	}
+
+	#footer-circle2 {
+		font-size: 28px;
+		color:#FF0B0B;
+	}
+
+	/* #top {
+		font-family: var(--primary-font);
+		font-size: 14px;
+		background-color: chartreuse;
+		border-radius: 30px;
+		padding: 10px;
+	} */
+
+	}
+	
 
 /* @media (min-width: 1024px) {
 	header {
