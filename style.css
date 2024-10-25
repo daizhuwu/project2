@@ -56,27 +56,6 @@
 		display: block;
 	}
 
-	/* h2 {
-		font-family: "libre-baskerville";
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 22px;
-		color: #FF0B0B;
-		margin: 30px 0;
-		border-bottom: 1px solid black;
-		padding-bottom: 30px;
-		position: relative;
-		padding-left: 45px;
-		padding-right: 18px;
-		}
-	
-	#star{
-		font-size: 20px;
-		position: absolute;
-		left: 18px;
-		top: 0;
-	} */
-
 	h2 {
 		font-family: “libre-baskerville”;
 		font-weight: bold;
@@ -169,16 +148,9 @@
 	}
 
 @media (min-width: 1280px) {
-	/* body{
-		min-width: 375px;
-	} */
 	header p{
-		font-family: var(--primary-font);
 		font-size: 20px;
-		border-bottom: 1px solid black;
-		padding: 0;
 		padding-bottom: 20px;
-
 		display: flex;           
     	align-items: center; 
 	}
@@ -214,29 +186,17 @@
 
 	#author-info-star1{
 		font-size: 28px;
-		color: #02186F;
 	}
 
 	#author-info-star2{
 		font-size: 28px;
-		color: #FF0B0B;
 	}
 
 	h1{
-		font-family: "almarai";
-		font-weight: bold;
 		font-size: 84px;
-		color: #02186F;
 		line-height: 80px;
 		margin-top: 60px;
 		margin-left: 4%;
-		padding: var(--padding);
-	}
-
-	.h1-font{
-		font-family: "libre-baskerville";
-		font-style: italic;
-		font-weight: normal;
 	}
 
 	h1 div {
@@ -244,26 +204,14 @@
 	}
 
 	h2 {
-		font-family: "libre-baskerville";
-		font-weight: bold;
 		font-size: 28px;
 		line-height: 32px;
-		color: #FF0B0B;
-
 		margin: 50px 4% 40px 4%;
-		
-		border-bottom: 1px solid black;
 		position: relative;
 		margin-top: 40px;
-
 		padding-bottom: 30px;
-
-		/* font-size: 28px;
-		padding-left: 120px; */
-
 		}
 		
-
 	#star{
 		font-size: 28px;
 		position: relative;
@@ -272,7 +220,6 @@
 	}
 
 	section p {
-		font-family: var(--primary-font);
 		font-size: 22px;
 		padding: var(--padding);
 		line-height: 36px;
@@ -282,61 +229,31 @@
 		padding: 0 50px;
 	}
 
-
 	blockquote{
-		font-family: "libre-baskerville";
-		font-style: italic;
 		font-size: 28px;
-		color:#FF0B0B;
-
 		line-height: auto;
-
-		/* margin: 40px 4% 0px 4%; */
-		border-top: 1px solid black;
-		padding-top: 30px;
-		/* padding-left: 45px; */
-		/* padding-right: 18px; */
-		padding-bottom: 5px;
-		position: relative;
-
-		/* position: absolute; */
-		/* max-width: 50%; */
 		text-align: right;
 		margin-left: auto;
 		margin-right: 60px;
-		/* padding-left: auto;
-		padding-right: 60px; */
-		/* left: 40px; */
-
 	}
+
 	blockquote div {
 		display: block;
 	}
 
 	#diamond {
 		font-size: 35px;
-		font-style: normal;
 		padding-top: 20px;
-		/* position: absolute;
-		left: 100px; */
 		padding-left: 45.5ch;
-		top: 0;
 	}
 
 	#circle {
 		font-size: 40px;
-		font-style: normal;
 		padding-top: 20px;
-		position: absolute;
-		left: 18px;
-		top: 0;
 	}
 
 	footer p{
-		font-family: var(--primary-font);
 		font-size: 20px;
-		margin-top: 80px;
-		border-top: 1px solid black;
 		padding: 10px 0;
 
 		display: flex;           
@@ -346,11 +263,9 @@
 
 	#footer-circle1{
 		font-size: 40px;
-		color:#02186F;
 	}
 
 	#footer-circle2 {
 		font-size: 40px;
-		color:#FF0B0B;
 	}
 }
