@@ -50,7 +50,7 @@
 
 		--blockquote-font-size: 18.5px;
 		--blockquote-font-style:italic;
-		--blockquote-line-height: 24px;
+		--blockquote-line-height: 28px;
 		--blockquote-color:#ff0b0b;
 		--blockquote-margin-top: 40px;
 		--blockquote-padding: 30px 18px 5px 45px;
@@ -200,7 +200,7 @@
 		--h2-font-size: 28px;
 		--h2-line-height: 42px;
 		--h2-margin-top: 60px;
-		--h2-padding: 0 440px 0 100px;
+		--h2-padding: 0 400px 0 100px;
 		--h2-padding-bottom: 80px;
 		--h2-max-width: 55%;
 		--h2-border-bottom: 3px solid black;
@@ -217,7 +217,7 @@
 		--blockquote-line-height: 42px;
 		--blockquote-border-top: 3px solid black;
 		--blockquote-margin-top: 80px;
-		--blockquote-padding: 80px 0px 40px 165px; 
+		--blockquote-padding: 80px 350px 40px 250px; 
 
 		/*p styles*/
 		--p-font-family:'helvetica neue',sans-serif;
