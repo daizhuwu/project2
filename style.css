@@ -7,7 +7,7 @@
 
 	/* color style */
 	--accent-color: #4040E2;
-	--text-color: #000;
+	--text-color: black;
 	--bg-color: #EEF3FF;
 
 	/* h1 font style */
@@ -26,6 +26,10 @@ header a {
 	text-decoration: underline;
 	font-size: 16px;
 	font-family: var(--primary-font-family);
+}
+
+a:hover{
+	color: black;
 }
 
 /* title */
@@ -61,7 +65,6 @@ h2 {
 header section {
 	display: flex;
 	gap: 40px;
-	font-family: var(--primary-font-family);
 	color: var(--text-color);
 	padding-bottom: 50px;
 	font-size: 16px;
@@ -72,11 +75,69 @@ header section {
   }
   
   .title {
+	font-family: var(--primary-font-family);
 	color: var(--accent-color); 
 	font-weight: bold;
 	display: block;
   }
   
   .text {
+	font-family: var(--primary-font-family);
 	display: block;
   }
+
+  h3{
+	font-family: var(--secondary-font-family);
+	font-size: 16px;
+	color: white;
+	background-color: var(--accent-color);
+	margin: 0px 60px 0px 15px;
+	padding: 0px 10px 0px 8px;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	position: sticky;
+	top: 20px;
+  }
+
+ .first-h3{
+	margin-top: 50px;
+ }
+
+ .stars {
+	font-size: 30px;
+ }
+
+.body-p{
+	font-family: var(--primary-font-family);
+	line-height: 24px;
+	margin-left: 35px; 
+	border-left: 2px solid black;
+	padding: 20px 0px 20px 20px ;
+	max-width: 80%;
+  }
+
+ blockquote{
+	font-family: var(--secondary-font-family);
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 26px;
+	color: var(--accent-color);
+	border-left: 2px solid black;
+	padding: 30px 20px 5px 60px;
+	margin-left: 35px; 
+ }
+
+ footer{
+	font-family: var(--secondary-font-family);
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: var(--bg-color);
+	padding: 30px 20px;
+ }
+
+
+
