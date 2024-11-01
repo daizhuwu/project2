@@ -60,7 +60,10 @@ h1 div {
 	justify-content: space-between;
 	align-items: flex-start;
 	/* max-width: 80%; */
-	margin: auto;
+	/* margin: auto; */
+	margin-top: 40px;
+	padding-bottom: 20px;
+	/* margin-bottom: 40px; */
 }
 
 h2 {
@@ -178,6 +181,29 @@ header section {
 	padding: 40px 20px;
  }
 
+@media print {
+	/* hide original website link */
+	header a {
+		display: none;
+	}
+	
+	/* decrease space between heading and body paragraph */
+	#h2-container {
+		padding-bottom: 0px;
+	}
+
+	header section {
+		padding-bottom: 0px;
+	}
+
+	/* change section heading text color */
+	h3 {
+		/* color: black; */
+		color: var(--accent-color);
+		font-weight: bold;
+	}
+}
+
 @media (min-width: 1280px){
 	/* header */
 	header {
@@ -258,11 +284,6 @@ header section {
 		flex-direction: row;
 		gap: 80px;
 		padding: 60px 110px;
-	}
-
-
-	@media print{
-		
 	}
 }
 
