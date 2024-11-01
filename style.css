@@ -194,6 +194,10 @@ section a:hover {
  }
 
 @media print {
+	:root {
+		--accent-color: #000;
+	}
+
 	/* hide original website link */
 	header a {
 		display: none;
