@@ -250,19 +250,19 @@ section a:hover {
 @media (min-width: 1280px){
 	/* header */
 	header {
-		padding: 60px 6% 10px;
+		padding: 3.75rem 6% 0.625rem;
 	}
 
 	header a {
-		font-size: 22px;
+		font-size: 1.4rem;
 	}
 
 	/* title */
 	h1{
-		font-size: 94px;
-		line-height: 110px;
-		padding-top: 60px;
-		padding-bottom: 40px;
+		font-size: 5.8rem;
+		line-height: 6.8rem;
+		padding-top: 3.75rem;
+		padding-bottom: 2.5rem;
 	}
 
 	/* subtitle */
@@ -270,63 +270,63 @@ section a:hover {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		margin-top: 40px;
-		gap: 40px;
+		margin-top: 2.5rem;
+		gap: 2.5rem;
 	}
 
 	h2 {
-		font-size: 28px;
+		font-size: 1.75rem;
 		max-width: 40%;
-		line-height: 32px;
+		line-height: 2rem;
 	}
 
 	/* author and published date */
 	header section {
-		gap: 40px;
-		font-size: 22px;
-		line-height: 32px;
+		gap: 2.5rem;
+		font-size: 1.4rem;
+		line-height: 2rem;
 	}
 
 	h3{
-		font-size: 22px;
+		font-size: 1.4rem;
 		margin-left: 6%; 
-		padding: 10px 20px 10px 18px; 
+		padding: 0.6rem 1.25rem 0.6rem 1.1rem;
 	}
 
 	.first-h3{
-		margin-top: 80px;
+		margin-top: 5rem;
 	}
 
 	.stars{
-		font-size: 40px;
+		font-size: 2.5rem;
 	}
 
 	.body-p{
-		font-size: 20px;
-		line-height: 34px;
+		font-size: 1.25rem;
+		line-height: 2rem;
 		margin-left: 8%;
-		padding: 50px 0px 0px 20%;
-		max-width: 70%;
+		padding: 3rem 0 0 8%;
+		max-width: 60%;
 	}
 
 	.bottom-p{
-		padding-bottom: 80px;
+		padding-bottom: 5rem;
 	}
 
 	blockquote{
-		font-size: 22px;
-		line-height: 28px;
+		font-size: 1.4rem;
+		line-height: 1.75rem;
 		max-width: 75%;
 		margin-left: 8%;
-		padding: 50px 0px 0px 40%;
+		padding: 3rem 0 0 30%;
 	}
 
 	footer{
-		font-size: 20px;
-		line-height: 34px;
+		font-size: 1.25rem;
+		line-height: 2rem;
 		flex-direction: row;
-		gap: 80px;
-		padding: 60px 110px;
+		gap: 5rem;
+		padding: 3.75rem 6.8rem;
 	}
 }
 
