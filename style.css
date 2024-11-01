@@ -159,6 +159,17 @@ header section {
 	padding-bottom: 60px;
 }
 
+section a {
+	color: var(--accent-color);
+	text-decoration: underline;
+	text-decoration-color: var(--accent-color);
+}
+
+section a:hover {
+	color: white;
+	background-color: var(--accent-color);
+}
+
  blockquote{
 	font-family: var(--secondary-font-family);
 	font-size: 18px;
@@ -201,6 +212,12 @@ header section {
 		/* color: black; */
 		color: var(--accent-color);
 		font-weight: bold;
+	}
+
+	/* remove underline for citations */
+	section a {
+		color: var(--text-color);
+		text-decoration-color: var(--text-color);
 	}
 }
 
