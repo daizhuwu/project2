@@ -100,7 +100,7 @@ header section {
 	font-size: 16px;
 	color: white;
 	background-color: var(--accent-color);
-	margin: 0px 60px 0px 15px;
+	margin-left: 15px;
 	padding: 0px 10px 0px 8px;
 	display: inline-flex;
 	align-items: center;
@@ -121,8 +121,6 @@ header section {
 	width: 100%;
 	position: sticky;
 	top: 0.1px;
-	/* padding: 20px 0 0 15px; */
-	/* height: 48px; */
   }
 
  .first-h3{
@@ -146,6 +144,7 @@ header section {
 
 .body-p{
 	font-family: var(--primary-font-family);
+	font-size: 16px;
 	line-height: 24px;
 	margin-left: 35px; 
 	border-left: 2px solid black;
@@ -216,6 +215,49 @@ header section {
 	header section {
 		gap: 40px;
 		font-size: 22px;
+		line-height: 32px;
+	}
+
+	h3{
+		font-size: 22px;
+		margin-left: 6%; 
+		padding: 10px 20px 10px 18px; 
+	}
+
+	.first-h3{
+		margin-top: 80px;
+	}
+
+	.stars{
+		font-size: 40px;
+	}
+
+	.body-p{
+		font-size: 20px;
+		line-height: 34px;
+		margin-left: 110px;
+		padding: 50px 0px 0px 20%;
+		max-width: 70%;
+	}
+
+	.bottom-p{
+		padding-bottom: 80px;
+	}
+
+	blockquote{
+		font-size: 22px;
+		line-height: 28px;
+		max-width: 75%;
+		margin-left: 110px;
+		padding: 50px 0px 0px 40%;
+	}
+
+	footer{
+		font-size: 20px;
+		line-height: 34px;
+		flex-direction: row;
+		gap: 80px;
+		padding: 60px 110px;
 	}
 
 }
