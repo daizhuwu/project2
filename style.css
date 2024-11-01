@@ -54,8 +54,17 @@ h1 div {
 }
 
 /* subtitle */
+#h2-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	/* max-width: 80%; */
+	margin: auto;
+}
+
 h2 {
-	padding: 30px 0;
+	/* padding: 30px 0; */
 	font-size: 18px;
 	color: var(--text-color);
 	font-weight: bold;
@@ -100,12 +109,39 @@ header section {
 	top: 20px;
   }
 
+  #h3-first-container {
+	background-color: white;
+	width: 100%;
+	position: sticky;
+	top: 0.01px;
+  }
+
+  .h3-container {
+	background-color: white;
+	width: 100%;
+	position: sticky;
+	top: 0.1px;
+	/* padding: 20px 0 0 15px; */
+	/* height: 48px; */
+  }
+
  .first-h3{
 	margin-top: 50px;
  }
 
  .stars {
 	font-size: 30px;
+	display: inline-block;
+	animation: rotate 6s linear infinite;
+ }
+
+ @keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
  }
 
 .body-p{
@@ -113,9 +149,13 @@ header section {
 	line-height: 24px;
 	margin-left: 35px; 
 	border-left: 2px solid black;
-	padding: 20px 0px 20px 20px ;
+	padding: 30px 0px 0px 20px ;
 	max-width: 80%;
   }
+
+.bottom-p {
+	padding-bottom: 60px;
+}
 
  blockquote{
 	font-family: var(--secondary-font-family);
@@ -136,8 +176,47 @@ header section {
 	flex-direction: column;
 	gap: 15px;
 	background-color: var(--bg-color);
-	padding: 30px 20px;
+	padding: 40px 20px;
  }
 
+@media (min-width: 1280px){
+	/* header */
+	header {
+		padding: 60px 6% 10px;
+	}
 
+	header a {
+		font-size: 22px;
+	}
+
+	/* title */
+	h1{
+		font-size: 94px;
+		line-height: 110px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	/* subtitle */
+	#h2-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-top: 40px;
+		gap: 40px;
+	}
+
+	h2 {
+		font-size: 28px;
+		max-width: 40%;
+		line-height: 32px;
+	}
+
+	/* author and published date */
+	header section {
+		gap: 40px;
+		font-size: 22px;
+	}
+
+}
 
