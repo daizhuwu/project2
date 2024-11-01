@@ -208,17 +208,42 @@ section a:hover {
 		padding-bottom: 0px;
 	}
 
+	h2{
+		max-width: 65%;
+	}
+
 	/* change section heading text color */
 	h3 {
 		/* color: black; */
 		color: var(--accent-color);
 		font-weight: bold;
+
+		font-size: 1rem;
+		margin-left: 1.2rem;
+		padding:0 0.6rem 0 0.5rem;
 	}
 
 	/* remove underline for citations */
 	section a {
 		color: var(--text-color);
 		text-decoration-color: var(--text-color);
+
+		font-size: 1rem;
+	}
+
+	.body-p{
+		margin-left: 5%;
+		padding: 2rem 0 0 4rem;
+		max-width: 80%;
+	}
+
+	.bottom-p {
+		padding-bottom: 4rem;
+	}
+
+	blockquote{
+		margin-left: 5%;
+		padding: 2rem 2rem 0 18rem;
 	}
 }
 
