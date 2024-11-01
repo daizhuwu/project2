@@ -146,7 +146,7 @@ header section {
 	font-family: var(--primary-font-family);
 	font-size: 16px;
 	line-height: 24px;
-	margin-left: 35px; 
+	margin-left: 8%; 
 	border-left: 2px solid black;
 	padding: 30px 0px 0px 20px ;
 	max-width: 80%;
@@ -164,7 +164,7 @@ header section {
 	color: var(--accent-color);
 	border-left: 2px solid black;
 	padding: 30px 20px 5px 60px;
-	margin-left: 35px; 
+	margin-left: 8%; 
  }
 
  footer{
@@ -235,7 +235,7 @@ header section {
 	.body-p{
 		font-size: 20px;
 		line-height: 34px;
-		margin-left: 110px;
+		margin-left: 8%;
 		padding: 50px 0px 0px 20%;
 		max-width: 70%;
 	}
@@ -248,7 +248,7 @@ header section {
 		font-size: 22px;
 		line-height: 28px;
 		max-width: 75%;
-		margin-left: 110px;
+		margin-left: 8%;
 		padding: 50px 0px 0px 40%;
 	}
 
@@ -260,5 +260,9 @@ header section {
 		padding: 60px 110px;
 	}
 
+
+	@media print{
+		
+	}
 }
 
